@@ -19,7 +19,7 @@ public abstract class Funcionario {
         this.cpf = cpf;
     }
 
-    public abstract double salario();
+    public abstract double calcularSalario();
 
     @Override
     public String toString() {
